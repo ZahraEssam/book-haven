@@ -1,0 +1,158 @@
+/* ========== Reset & Base ========== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; 
+  padding: 0;
+  background: #f4ede3; /* بيج فاتح */
+  color: #2f2f2f; /* نص غامق */
+}
+
+/* ========== Header & Navbar ========== */
+header {
+  background: #5a3d2b; /* بني داكن */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 30px;
+}
+
+header .logo {
+  width: 120px;
+}
+
+nav a {
+  color: #f4ede3; /* بيج فاتح */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #a3a380; /* زيتوني باهت */
+}
+
+#mainNavbar {
+  background-color: #5a3d2b !important; /* بني داكن */
+}
+
+#mainNavbar .nav-link {
+  color: #f4ede3 !important; /* بيج فاتح */
+}
+
+#mainNavbar .nav-link:hover {
+  color: #5f4a31 !important; /* زيتوني باهت */
+}
+
+/* ========== Hero Section ========== */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: #e8dfd3; /* بيج أغمق شوية */
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #5a3d2b; /* بني داكن */
+}
+
+.hero .btn {
+  background: #8c5e3c; /* بني متوسط */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background: #452214; /* بني داكن غامق */
+  color: #f4ede3;
+}
+
+/* ========== About Section ========== */
+.aboutImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========== Books Section ========== */
+.books-container {
+  display: flex;
+  justify-content: center; /* يخليهم في النص */
+  flex-wrap: wrap;         /* ينزلوا سطر جديد لو الصفحة صغيرة */
+  gap: 20px;               /* مسافة بين الكتب */
+}
+
+.book {
+  width: 200px;
+  text-align: center;
+  background: #fffaf3;       /* بيج فاتح قوي للكارت */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل خفيف */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book:hover {
+  transform: translateY(-8px); /* يطلع لفوق شوية */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2); /* ظل أعمق عند الهوفر */
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.book p {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #5a3d2b; /* بني داكن */
+  font-weight: bold;
+}
+
+/* ========== Footer ========== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #5a3d2b; /* بني داكن */
+  color: #f4ede3; /* بيج */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap; /* عشان ينزلوا سطر جديد لو مفيش مساحة */
+  gap: 20px; /* مسافة بين الكتب */
+  justify-content: center; /* يجيبهم في النص */
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+#ourBookHeadLine{
+    text-align: center;
+
+  
+
+}
+.search-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-box input {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #5a3d2b; /* بني داكن */
+  border-radius: 6px;
+  font-size: 16px;
+}

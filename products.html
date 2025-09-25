@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Haven - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="products.html">Products</a> |
+    <a href="cart.html">Cart</a> |
+    <a href="about.html">About</a> |
+    <a href="login.html">Login</a>
+  </nav>
+
+  <div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search for a book...">
+</div>
+<h1 id="ourBookHeadLine">Our Books</h1>
+<div class="products">
+  <div class="product">
+    <img src="images/book1.png.jpg" alt="غلاف كتاب سر الغرفة 207" width="190">
+    <h3>سر الغرفة 207</h3>
+    <p>$10</p>
+    <button onclick="addToCart('The Great Gatsby', 10)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/book2.png.jpg" alt="Book 2" width="180">
+    <h3>ما وراء الطبيعة</h3>
+    <p>$15</p>
+    <button onclick="addToCart('1984', 15)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/book3.png.webp" alt="Book 3" width="200">
+    <h3>لا مكان للملل</h3>
+    <p>$6</p>
+    <button onclick="addToCart('Book Three', 6)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/book4.png.jpg" alt="Book 4" width="190">
+    <h3>قهوة باليورانيوم</h3>
+    <p>$10</p>
+    <button onclick="addToCart('Book Four', 10)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/book5.png.webp" alt="Book 5" width="180">
+    <h3>رحلة البحث عن اهتماماتك</h3>
+    <p>$22</p>
+    <button onclick="addToCart('Book Five', 22)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/book6.png.webp" alt="Book 6" width="180">
+    <h3>تأملات يومية</h3>
+    <p>$9</p>
+    <button onclick="addToCart('Book Six', 9)">Add to Cart</button>
+  </div>
+
+    <div class="product">
+    <img src="images/book7.jpg" alt="Book 7" width="180">
+    <h3> أولاد حارتنا</h3>
+    <p>$27</p>
+    <button onclick="addToCart('Book Six', 9)">Add to Cart</button>
+  </div>
+
+
+      <div class="product">
+    <img src="images/book8.jpg" alt="Book 8" width="200">
+    <h3> المرايا</h3>
+    <p>$27</p>
+    <button onclick="addToCart('Book Six', 9)">Add to Cart</button>
+  </div>
+
+  
+      <div class="product">
+    <img src="images/book10.jpg" alt="Book 10" width="195">
+    <h3> الحب تحت المطر</h3>
+    <p>$27</p>
+    <button onclick="addToCart('Book Six', 9)">Add to Cart</button>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
